@@ -54,8 +54,8 @@ const (
 	DefaultDenyPriority = "1000"
 
 	// priority of logical router policies on the OVNClusterRouter
-	EgressFirewallStartPriority           = "10000"
-	MinimumReservedEgressFirewallPriority = "2000"
+	EgressFirewallStartPriority           = "2000"
+	MinimumReservedEgressFirewallPriority = "1999"
 	MGMTPortPolicyPriority                = "1005"
 	NodeSubnetPolicyPriority              = "1004"
 	InterNodePolicyPriority               = "1003"
